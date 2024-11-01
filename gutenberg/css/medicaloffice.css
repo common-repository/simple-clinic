@@ -1,0 +1,67 @@
+.simpleclinic_providers.center, .simpleclinic_specialties.center {text-align:center;}
+
+.simpleclinic_providers article, .simpleclinic_specialties div.simpleclinic_specialty {margin-bottom: 1rem; float: left;}
+.simpleclinic_providers, .simpleclinic_specialties {clear: both;}
+.simpleclinic_providers .clear, .simpleclinic_specialties .clear {clear: both;}
+.simpleclinic_providers img, .simpleclinic_specialties img {max-width: 100%;}
+@media screen and (min-width: 700px) {
+  .simpleclinic_providers article, .simpleclinic_specialties div.simpleclinic_specialty {float: left;}
+  .simpleclinic_providers.per-row-6 article, .simpleclinic_specialties.per-row-6 div.simpleclinic_specialty {
+      width: 13.6%;
+      margin-right: 3%;
+  }
+
+  .simpleclinic_providers.per-row-6 article:nth-child(6n +1), .simpleclinic_specialties.per-row-6 div.simpleclinic_specialty:nth-child(6n +1) {
+    clear: left;
+}
+
+  .simpleclinic_providers.per-row-5 article,
+  .simpleclinic_specialties.per-row-5 div.simpleclinic_specialty {
+      width: 17%;
+      margin-right: 3%;
+  }
+
+  .simpleclinic_providers.per-row-5 article:nth-child(5n +1),
+  .simpleclinic_specialties.per-row-5 div.simpleclinic_specialty:nth-child(5n +1) {
+    clear: left;
+}
+
+  .simpleclinic_providers.per-row-4 article,
+  .simpleclinic_specialties.per-row-4 div.simpleclinic_specialty {
+      width: 22%;
+      margin-right: 3%;
+  }
+
+  .simpleclinic_providers.per-row-4 article:nth-child(4n +1),
+  .simpleclinic_specialties.per-row-4 div.simpleclinic_specialty:nth-child(4n +1) {
+    clear: left;
+}
+
+  .simpleclinic_providers.per-row-3 article,
+  .simpleclinic_specialties.per-row-3 div.simpleclinic_specialty {
+      width: 30.33%;
+      margin-right: 3%;
+  }
+
+  .simpleclinic_providers.per-row-3 article:nth-child(3n +1),
+  .simpleclinic_specialties.per-row-3 div.simpleclinic_specialty:nth-child(3n +1) {
+    clear: left;
+}
+
+  .simpleclinic_providers.per-row-2 article,
+  .simpleclinic_specialties.per-row-2 div.simpleclinic_specialty {
+      width: 47%;
+      margin-right: 3%;
+  }
+
+  .simpleclinic_providers.per-row-2 article:nth-child(2n +1),
+  .simpleclinic_specialties.per-row-2 div.simpleclinic_specialty:nth-child(2n +1) {
+    clear: left;
+  }
+
+
+  .simpleclinic_providers.per-row-1 article,
+  .simpleclinic_specialties.per-row-1 div.simpleclinic_specialty {
+      float: none;
+  }
+}
